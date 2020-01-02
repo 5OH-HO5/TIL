@@ -19,6 +19,8 @@ ex) master에 위치하다가 oh라는 가지로 이동하고 싶을 때
 add, commit, push 과정 동일
 branch 삭제하기
 'git branch -D name/function' master에서 명령어 입력
+branch에서 push
+'git push origin 브랜치 이름'
 ```
 
 ### Branch
@@ -28,7 +30,7 @@ branch 삭제하기
 1. 브랜치 생성: `git branch 브랜치이름`
 2. 브랜치 확인: `git branch`
 3. 브랜치 이동:  `git checkout 브랜치이름`
-4. 브랜치 삭제:  `git vranch -d 브랜치이름`
+4. 브랜치 삭제:  `git branch -d 브랜치이름`
 5. 브랜치 생성 + 이동: `git checkout -b 브랜치이름`
 
 ![image-20191211123522815](git branch.assets/image-20191211123522815.png)
