@@ -95,3 +95,20 @@ print(f"{name}님 안녕하세요")
 
 format 함수없이도 (f"{}") 안에 작성 가능
 
+___
+
+> 용량 초과시 git commit 기록과 cache 기록 지우기
+
+```
+git reflog
+여기서 마지막 commit 기록을 확인 및 선택할 수 있다
+
+git reset --hard HEAD@{git reflog에서 확인한 commit index number}
+git rm -r --cached .
+캐시기록 지우기
+
+이후 git add . / git commit -m '' / git push 'remote name' master
+
+주의사항
+commit 기록을 되돌릴 때 필요한 자료는 backup 해둔다
+```
